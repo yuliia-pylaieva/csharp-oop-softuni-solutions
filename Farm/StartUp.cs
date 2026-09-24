@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Text;
-
-namespace Farm
+﻿namespace Farm
 {
     public static class StartUp
     {
@@ -18,7 +12,6 @@ namespace Farm
             Dog dog = new Dog();
             dog.Eat();
             dog.Bark();
-
 
             Cat cat = new Cat();
             cat.Eat();
