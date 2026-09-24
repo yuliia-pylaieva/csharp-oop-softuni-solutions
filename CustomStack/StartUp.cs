@@ -1,17 +1,18 @@
 ﻿namespace CustomStack;
 
-public class StartUp
+public static class StartUp
 {
      public static void Main()
     {
         StackOfStrings stack = new StackOfStrings();
-        Console.WriteLine(stack.IsEmpty());
+        Console.WriteLine($"Empty: {stack.IsEmpty()}");
         stack.AddRange(new List<string>() { "Yulia", "Ivan", "Dimitar", "Petar" });
-        Console.WriteLine(stack.IsEmpty());
+        Console.WriteLine($"Empty: {stack.IsEmpty()}");
         
         while(!stack.IsEmpty())
         {
             Console.WriteLine(stack.Pop());
         }
+        Console.WriteLine($"Empty: {stack.IsEmpty()}");
     }
 }
