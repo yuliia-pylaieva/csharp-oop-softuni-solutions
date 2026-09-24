@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farm", "Farm\Farm.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRandomList", "CustomRandomList\CustomRandomList.csproj", "{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "CustomStack\CustomStack.csproj", "{640C69C1-67D2-46DA-969B-71E61E317B02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
