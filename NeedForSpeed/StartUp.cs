@@ -1,10 +1,8 @@
-﻿namespace NeedForSpeed
+﻿namespace NeedForSpeed;
+
+public class StartUp
 {
-    public class StartUp
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            
-        }
     }
 }

@@ -1,42 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Text;
 
+namespace Person;
 
-namespace Person
+public class StartUp
 {
-    public class StartUp
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        var name = Console.ReadLine();
+
+        var age = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
+
+
+        if (age < 0)
+
         {
-            string name = Console.ReadLine();
+            Console.WriteLine("Age must be positive!");
+        }
 
-            int age = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
+        else if (age > 15)
 
+        {
+            var person = new Person(name, age);
 
-            if (age < 0)
+            Console.WriteLine(person);
+        }
 
-            {
-                Console.WriteLine("Age must be positive!");
-            }
+        else
 
-            else if (age > 15)
+        {
+            var child = Child.CreateInstance(name, age);
 
-            {
-                Person person = new Person(name, age);
-
-                Console.WriteLine(person);
-            }
-
-            else
-
-            {
-                Child child = Child.CreateInstance(name, age);
-
-                Console.WriteLine(child);
-            }
+            Console.WriteLine(child);
         }
     }
 }
