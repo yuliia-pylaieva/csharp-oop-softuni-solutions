@@ -2,7 +2,7 @@ namespace Zoo;
 
 public class Animal
 {
-    private string name;
+    private string _name;
     
     public string Name { get;}
 

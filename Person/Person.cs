@@ -5,8 +5,8 @@ public class Person
     
     //full property - field+property - > get;set;
     //auto property - property, no field -> get;
-    private string name;
-    private int age;
+    private string _name;
+    private int _age;
     
     public Person(string name, int age)
     {
