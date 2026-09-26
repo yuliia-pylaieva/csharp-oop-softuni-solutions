@@ -2,11 +2,21 @@ namespace Person;
 
 public class Person
 {
-    private int _age;
-
-    //full property - field+property - > get;set;
-    //auto property - property, no field -> get;
-    private string _name;
+    
+    //auto property - property, no field 
+    //full property - field+property - > get; set; used for fuller logic in the getter and setter
+    // private string _name;
+    // private int _age;
+    // public string Name {
+    //     get
+    //     {
+    //         return _name;
+    //     }
+    //     set
+    //     {
+    //         _name = value;
+    //     }
+    // }
 
     public Person(string name, int age)
     {
@@ -15,6 +25,7 @@ public class Person
     }
 
     public string Name { get; set; }
+    
     public int Age { get; set; }
 
     public override string ToString()

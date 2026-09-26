@@ -2,9 +2,6 @@ namespace PlayersAndMonsters;
 
 public class Hero
 {
-    private int _level;
-
-    private string _username;
 
     public Hero(string username, int level)
     {
