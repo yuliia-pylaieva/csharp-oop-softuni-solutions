@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="BorderControl /BorderControl.csproj" />
+  <Project Path="CollectionHierarchy/CollectionHierarchy.csproj" />
+  <Project Path="DefineInterfaceIPerson/DefineInterfaceIPerson.csproj" />
+  <Project Path="ExplicitInterfaces/ExplicitInterfaces.csproj" />
+  <Project Path="FoodShortage/FoodShortage.csproj" />
+  <Project Path="MilitaryElite/MilitaryElite.csproj" />
+  <Project Path="Telephony/Telephony.csproj" />
+</Solution>
