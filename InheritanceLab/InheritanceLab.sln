@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farm", "Farm\Farm.csproj", "{4DA0AED4-CD71-4F18-93A2-7EE96F2B632A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRandomList", "CustomRandomList\CustomRandomList.csproj", "{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "CustomStack\CustomStack.csproj", "{640C69C1-67D2-46DA-969B-71E61E317B02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA0AED4-CD71-4F18-93A2-7EE96F2B632A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA0AED4-CD71-4F18-93A2-7EE96F2B632A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA0AED4-CD71-4F18-93A2-7EE96F2B632A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA0AED4-CD71-4F18-93A2-7EE96F2B632A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8758A6-A7A5-4878-B634-7A2FEABE6A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640C69C1-67D2-46DA-969B-71E61E317B02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
