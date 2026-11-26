@@ -1,6 +1,6 @@
 ﻿namespace P01.Stream_Progress
 {
-    public class Music
+    public class Music : IStream
     {
         private string artist;
         private string album;
@@ -13,8 +13,8 @@
             this.BytesSent = bytesSent;
         }
 
-        public int Length { get; set; }
+        public int Length { get; }
 
-        public int BytesSent { get; set; }
+        public int BytesSent { get; }
     }
 }

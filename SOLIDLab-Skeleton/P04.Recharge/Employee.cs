@@ -7,16 +7,10 @@
         public Employee(string id) : base(id)
         {
         }
-
-        public override void Sleep()
+        public void Sleep()
         {
-            // sleep...
+            Console.WriteLine("Sleeping");
         }
 
-        public override void Recharge()
-        {
-            throw new InvalidOperationException("Employees cannot recharge");
-        }
-        
     }
 }

@@ -2,17 +2,17 @@
 {
     public class StreamProgressInfo
     {
-        private File file;
+        private IStream stream;
 
         // If we want to stream a music file, we can't
-        public StreamProgressInfo(File file)
+        public StreamProgressInfo(IStream stream)
         {
-            this.file = file;
+            this.stream = stream;
         }
 
         public int CalculateCurrentPercent()
         {
-            return (this.file.BytesSent * 100) / this.file.Length;
+            return (this.stream.BytesSent * 100) / this.stream.Length;
         }
     }
 }

@@ -1,9 +1,19 @@
-﻿namespace P03.DetailPrinter
+﻿using System;
+using System.Collections.Generic;
+
+namespace P03.DetailPrinter
 {
-    class Program
+    public static class Program
     {
-        static void Main()
+        private static void Main()
         {
+
+            IList<Employee> employees = new List<Employee>();
+            employees.Add(new Manager("Joe Doe", new List<string>() { "CV", "Report" }));
+            employees.Add(new Employee("George"));
+
+            DetailsPrinter detailsPrinter = new(employees);
+            detailsPrinter.PrintDetails();
         }
     }
 }

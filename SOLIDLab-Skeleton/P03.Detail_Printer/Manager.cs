@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Text;
 
 namespace P03.DetailPrinter
 {
@@ -8,7 +9,14 @@ namespace P03.DetailPrinter
         {
             this.Documents = new List<string>(documents);
         }
+        public IReadOnlyCollection<string> Documents { get; }
 
-        public IReadOnlyCollection<string> Documents { get; set; }
+        public override string GetDetails()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(base.GetDetails());
+            sb.AppendLine($"{string.Join(", ", Documents)}");
+            return sb.ToString().TrimEnd();
+        }
     }
 }
